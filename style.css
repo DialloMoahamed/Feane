@@ -25,6 +25,12 @@
     background-position: center;
     position: relative;
 }
+.contenu2 {
+    background-image: url(images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
 
 .carousel-indicators {
     position: relative;
