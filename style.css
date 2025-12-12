@@ -39,7 +39,11 @@
     justify-content: start;
 }
 
-.image1:hover {
+.image1 {
+    overflow: hidden;
+}
+
+.card_noir:hover .image1 {
     transition: 0.3s ease;
     transform: scale(1.1);
 }
@@ -50,6 +54,9 @@
     transform: scale(1.1);
 }
 
+.img-fluid {
+    height: 40em !important;
+}
 .map-responsive {
   position: relative;
   padding-bottom: 56.25%; /* ratio 16/9 */
